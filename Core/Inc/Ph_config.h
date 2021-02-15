@@ -16,6 +16,7 @@
 #include "stm32f407xx.h"
 #include "stm32f4xx.h"
 
+void UART_config(void);
 void ADC_config();
 void GPIO_config();
 void ADC_Enable();

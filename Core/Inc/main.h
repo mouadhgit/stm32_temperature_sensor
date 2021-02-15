@@ -2,7 +2,7 @@
 /**
   ******************************************************************************
 
-  UART Code For STM32F407VG
+  STM32F407VG Code to do the flow diagram in the photo "Flow diagram.PNG"
   Author:   Mouadh Dahech
   Updated:  1/16/2021
 
@@ -17,6 +17,7 @@
 #include "stm32f407xx.h"
 #include "stm32f4xx.h"
 #include "RCC_Config.h"
-#include "ADC.h"
+#include "Ph_config.h"
 
+void Send_Char(uint8_t ch);
 #endif 

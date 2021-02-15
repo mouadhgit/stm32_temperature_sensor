@@ -39,7 +39,8 @@ C_SOURCES =  \
 Core/Src/main.c \
 Core/Src/system_stm32f4xx.c\
 Core/Src/RCC_Config.c \
-Core/Src/ADC.c \
+Core/Src/Ph_config.c \
+
 # ASM sources
 ASM_SOURCES =  \
 startup_stm32f407xx.s
